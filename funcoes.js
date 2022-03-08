@@ -19,13 +19,20 @@ var numDig = []
     valor = Number (valor)
      if (valor>60){
         alert("O valor é maior que 60")
+        limpar(pos)
      }else if (valor<=0){
         alert("O valor não pode ser menor que 0")
+        limpar(pos)
      }else if(numDig.includes(valor)){
         alert("Este valor já foi digitado")
+        limpar(pos)
      }else{
         numDig[pos] = valor
      }
+ }
+  
+ function limpar (pos){
+     document.getElementById(`num${pos}`).value = ""
  }
 
   function vereficaAcertos(){
