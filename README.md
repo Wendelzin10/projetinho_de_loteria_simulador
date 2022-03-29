@@ -22,7 +22,7 @@ verifica a quantidade de acertos
 
 | Tela Inicial | Primeira Rodada | 
 |--------------|-----------------|
-| imagem 1     | imagem 2        |
+| ![Tela inicial do site](/img/Tela1.png)   | ![Tela preenchida do site](/img/Tela2.png)   |
 
 
 ### Código Principal
